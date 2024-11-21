@@ -160,8 +160,48 @@
     main p {
       max-width: 90%;
     }
+
+
+    .container {
+      grid-template-columns: 1fr; /* Single column */
+      text-align: center; /* Center text */
+    }
+  
+    .image {
+      margin-bottom: 20px; /* Add spacing between image and text */
+    }
+
+
+    .container2 {
+      grid-template-columns: 1fr; /* Single column */
+      text-align: center; /* Center text */
+    }
+  
+    .image2 {
+      margin-bottom: 20px; /* Add spacing between image and text */
+    }
   }
   
+
+/* ------------------------------------------------------------------------ */
+
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Adjust ratio as needed */
+
+    align-items: center; /* Align items vertically */
+  }
+  
+  .image2 {
+    max-width: 100%; /* Ensure the image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .text2 {
+    font-family: Arial, sans-serif; /* Example font */
+  }
+  
+/* ------------------------------------------------------------------------ */
 
 
 
